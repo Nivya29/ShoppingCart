@@ -6,7 +6,7 @@
 
 }
 .card {
-    flex: 0 0 calc(25% - 20px); /* Adjust the width as needed */
+    flex: 0 0 calc(25% - 20px); 
     margin: 5px;
     padding: 0px;
     background-color: white;
