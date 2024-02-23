@@ -1,0 +1,48 @@
+.card-container{
+    
+    background-color: blue;
+    padding:70px;
+    
+
+}
+.card {
+    flex: 0 0 calc(25% - 20px); /* Adjust the width as needed */
+    margin: 5px;
+    padding: 0px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+    height:100%;
+  }
+  
+  .btn {
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border:1px solid black;
+    cursor:pointer;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    text-align: center; 
+    transition: background-color 0.3s; 
+    width:130px; 
+  }
+  .btn:hover{
+    background-color:black;
+  }
+  .card-title{
+    font-weight: 700;
+  }
+  .star-rating{
+    margin-bottom: 10px;
+    font-size: 25px; 
+    color: gold;
+  }
+  .mt-auto .btn{
+    color:white;
+    transition: background-color 0.3s; 
+  }

@@ -1,0 +1,37 @@
+
+.navbar .btn{
+    width:115px;
+    padding:6px;
+    margin: 6px;
+    color: black;
+}
+.navbar .btn:hover, 
+.navbar .btn:hover .badge { 
+    color: white;
+}
+.navbar .btn:hover .fas {
+    color: white; 
+}
+
+.btn .badge{
+   position: relative;
+   margin-left:6px;
+   
+}
+.badge{
+    display: inline-block;
+    white-space: no-wrap;
+}
+.fas{
+    color: black;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar .container-fluid{
+    padding:17px;
+    
+   
+}

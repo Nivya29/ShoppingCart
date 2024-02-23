@@ -1,0 +1,25 @@
+
+.footer .card{
+    background-color: black;
+    color:white;
+    margin:0px;
+    border-radius: 1px;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  
+  .copyright {
+    text-align: center;
+    width: 100%; 
+    margin: 0; 
+    padding: 0; /* Reset padding */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
